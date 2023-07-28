@@ -57,9 +57,9 @@ pip intall -e .
     │           ├── pcqm4m-v2-train.sdf
     │           └── pcqm4m-v2-train.sdf.tar.gz
     ```
-  - Then run `examples/generate_PCQM4Mv2.py`. The default path is `data/Molecule3D/Molecule3D_1000000`.
-- For QM9, it is automatically downloaded in pyg class. The default path is `data/molecule_datasets/qm9`.
-- For MD17, it is automatically downloaded in pyg class. The default path is `data/md17`.
+  - Then run `examples/generate_PCQM4Mv2.py`.
+- For QM9, it is automatically downloaded in pyg class. The default path is `data/molecule_datasets/QM9`.
+- For MD17, it is automatically downloaded in pyg class. The default path is `data/MD17`.
 - For MoleculeNet, please follow [GraphMVP instructions](https://github.com/chao1224/GraphMVP). The dataset structure is:
   ```
     .
