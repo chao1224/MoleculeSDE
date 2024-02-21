@@ -9,6 +9,7 @@ Shengchao Liu<sup>+</sup>, Weitao Du<sup>+</sup>, Zhiming Ma, Hongyu Guo, Jian T
 [[Project Page](https://chao1224.github.io/MoleculeSDE)]
 [[Paper](https://proceedings.mlr.press/v202/liu23h.html)]
 [[ArXiv](https://arxiv.org/abs/2305.18407)]
+[[Checkpoints on HuggingFace](https://huggingface.co/chao1224/MoleculeSDE/tree/main)]
 
 <p align="center">
   <img src="figure/pipeline.png" /> 
@@ -20,6 +21,9 @@ Shengchao Liu<sup>+</sup>, Weitao Du<sup>+</sup>, Zhiming Ma, Hongyu Guo, Jian T
     - Generative learning:
         - One 2D->3D diffusion model. Frame-based SE(3)-equivariant and reflection anti-symmetric model
         - One 3D->2D diffusion model. SE(3)-invariant.
+
+All the pretrained checkpoints are available on [this HuggingFace link](https://huggingface.co/chao1224/MoleculeSDE/tree/main).
+You can find detailed mapping between checkpoints and tables in file `README_checkpoints.md`.
 
 <p align="left">
   <img src="figure/demo.gif" width="100%" /> 
